@@ -1,10 +1,10 @@
 <center><hi> So <%=user_name%>, What are your 3 favorite numbers? </hi></center>
 
-<form action='favorite_numbers_input' method='post'>
-		<input type='number' required name='num1_input'>
-		<input type='number' required name='num2_input'>
-		<input type='number' required name='num3_input'>
-		<input type='text' name='name_input' value= <%=username%> hidden>
+<form action='favorite_nums' method='post'>
+		<input type='number' required name='fav_input_1'>
+		<input type='number' required name='fav_input_2'>
+		<input type='number' required name='fav_input_3'>
+		<input type='text' name='name_input' value= <%=user_name%> hidden>
 		<input type='number' name='age_input' value= <%=age%> hidden>
 		<input type='submit'>
-</form></center> 
+</form></center>
