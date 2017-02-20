@@ -1,9 +1,9 @@
 require 'sinatra'
-require_relative 'addition_function.rb'
+require_relative 'name_num.rb'
 
 get '/' do
 	
-	erb :get_name
+	erb :name_num
 
 end
 
