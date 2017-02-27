@@ -1,7 +1,20 @@
-<center><h3> Hi <%=user_name%>, how old are you? </h3></center>
+<html>
+<!-- Displays text prompt to user, passes user name input to return the name that 
+was entered previously. -->
+ <head>
+<div class="h1 transbox">
+ Hi <%=user_name%>, how old are you? 
+ </div>
+</head>
 
-<center><form action='user_age' method='post'>
+<body class="body">
+<!-- Posts input to user_age view. -->
+<form class="body" action='user_age' method='post'>
+<!-- adds input box and calls the input age_input. -->
 		<input type='number' required name='age_input'>
+<!-- passes name_input along through this view, but keeps it hidden. -->
 		<input type='text' name='name_input' value= <%=user_name%> hidden>
+<!-- adds submit button with text 'Push It'. -->
 		<p><input type='submit' value = 'Push It'></p>
-</form></center>
+</form>
+</html>

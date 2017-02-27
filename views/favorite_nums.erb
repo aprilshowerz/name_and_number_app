@@ -1,10 +1,17 @@
-<center><h3> So <%=user_name%>, What are your 3 favorite numbers? </h3></center>
-
-<center><form action='favorite_nums' method='post'>
+<html>
+<head>
+<div class="h1 transbox">
+ So <%=user_name%>, What are your 3 favorite numbers? 
+</div>
+</head>
+<body class="body">
+<form action='favorite_nums' method='post'>
 		<input type='number' required name='fav_input_1'>
 		<input type='number' required name='fav_input_2'>
 		<input type='number' required name='fav_input_3'>
 		<input type='text' name='name_input' value= <%=user_name%> hidden>
 		<input type='number' name='age_input' value= <%=age%> hidden>
 		<p><input type='submit' value = "Push it real good"></p>
-</form></center>
+</form>
+</body>
+</html>
