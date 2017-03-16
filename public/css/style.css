@@ -34,7 +34,10 @@ text-align: center;
     opacity: 0.6;
     filter: alpha(opacity=60); 
 }
-
+/*.images
+{
+	
+}*/
 .footer
 {
   	position:fixed;bottom:0;left:0;right:0;height:150px;
